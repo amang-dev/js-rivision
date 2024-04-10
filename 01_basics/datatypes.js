@@ -22,3 +22,35 @@
 // JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language. It is also known as the scripting language for webpages. It is well-known for the development of web pages, and many non-browser environments also use it.
 
 // JavaScript is a weakly typed language (dynamically typed). JavaScript can be used for Client-side developments as well as Server-side developments. JavaScript is both an imperative and declarative type of language. JavaScript contains a standard library of objects, like Array, Date, and Math, and a core set of language elements like operators, control structures, and statements. 
+
+
+//? *************************************************
+
+// Stack Memmory - (Primitive)
+// Heap Memory - (Non-Primitive)
+
+// let myName = "amanG"
+
+// let myOtherName = myName
+// myOtherName = "Bittu"
+
+// console.log(myName);
+// console.log(myOtherName);
+
+
+// let userOne = {
+//     email: "aman@gmail.com",
+//     upi: "aman@ybl"
+// }
+
+// let userTwo = userOne
+
+// userTwo.email = "abc@google.com"
+
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
+
+//? ****** String ****************
+
+

@@ -67,7 +67,6 @@ console.log("1" + 2);
 console.log(1 + "2");
 console.log("1" + 2 + 2);
 console.log(1 + 2 + "3");
-
 console.log(true);
 console.log(+true);
 console.log(+"");
@@ -138,12 +137,12 @@ console.log(gameCounter);
 
 //! comparison operator
 
-// console.log("2" > 1);
-// console.log("02" > 1);
+console.log("2" > 1);
+console.log("02" > 1);
 
-// console.log(null > 0);
-// console.log(null == 0);
-// console.log(null >= 0);
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
 
 
 // == loose check
