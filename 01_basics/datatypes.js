@@ -51,6 +51,13 @@
 // console.log(userTwo.email);
 
 
-//? ****** String ****************
 
+//? Stack memory(Primitive)
+//? Heap memory (non-pri mitive)
 
+let myyname = "aman gupta"
+ let anotherrname= myyname
+ anotherrname = "abc"
+
+ console.log(myyname);
+ console.log(anotherrname);

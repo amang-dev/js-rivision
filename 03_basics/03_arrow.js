@@ -48,3 +48,14 @@ user.welcomeMessage();
 
 //!  Immediately Invoke Function Expression (IIFE)
 
+
+//? SomeTime this is a pollution due to global scope variable to avoid this we use IIFE.
+
+// (function chai () {
+//   console.log('DB connected');
+// })();
+
+
+// (() =>{
+//    console.log("aman");
+// })()

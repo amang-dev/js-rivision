@@ -1,6 +1,6 @@
 
-const boys = ["aman", "girish", "piyush"]
-const girls = ["priya", "juhi", "vidhi"]
+// const boys = ["aman", "girish", "piyush"]
+// const girls = ["priya", "juhi", "vidhi"]
 
 // boys.push(girls)
 
@@ -26,17 +26,17 @@ const girls = ["priya", "juhi", "vidhi"]
 // console.log(newFlattenArr);
 
 
-const arr4 = [1,2,3,4,5]
+// const arr4 = [1,2,3,4,5]
 
-console.log(Array.isArray("aman"));
-console.log(Array.from("aman"));
+// console.log(Array.isArray("aman"));
+// console.log(Array.from("aman"));
 //! imp console.log(Array.from({name: "aman"}));
 
-let a = 5
-let b = 6
-let c = 7
+// let a = 5
+// let b = 6
+// let c = 7
 
-console.log(Array.of(a,b,c));
+// console.log(Array.of(a,b,c));
 
 //? isArray() method:
 

@@ -1,11 +1,11 @@
 
 console.log("Aman");
 
-//!----Primitive data type
+//! ----Primitive data type
 
 // Number = 2 to the power 53
 // BigInt
-// String
+// String 
 // Boolean
 // null
 // undefined
@@ -15,7 +15,7 @@ console.log("Aman");
 
 // object
 
-//? ----------------------------------------------------
+//? ---------------------------------------------------------
 
 
  let score = "100"
@@ -31,7 +31,7 @@ console.log("Aman");
 console.log(typeof valueInNum);
 
 
-// "33" => 33
+// "33" => 33 
 // "12ss0" => NaN
 //true ==> 1 false == 0
 

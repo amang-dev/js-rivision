@@ -4,44 +4,44 @@
 // console.log(`My name is ${name} My repo count is ${repoCount}`)
 
 
-const gameName = new String('amangupta')
+// const gameName = new String('amangupta')
 
-console.log(gameName[0])
+// console.log(gameName[0])
 
-console.log(gameName.__proto__);
+// console.log(gameName.__proto__);
 
-console.log(gameName.toUpperCase());
-console.log(gameName.charAt(1));
-console.log(gameName.indexOf('n'));
+// console.log(gameName.toUpperCase());
+// console.log(gameName.charAt(1));
+// console.log(gameName.indexOf('n'));
 
-const newString = gameName.substring(0, 4)
-console.log(newString);
+// const newString = gameName.substring(0, 4)
+// console.log(newString);
 
-const anotherString = gameName.slice(0, 4)
-console.log(anotherString);
+// const anotherString = gameName.slice(0, 4)
+// console.log(anotherString);
 
-const newStr = "    aman       "
-console.log(newStr);
-console.log(newStr.trim());
-
-
-const url1 = "https://aman-gupta.me/"
-console.log(url1.replace("me", "com"));
-console.log(url1.includes("aman"));
+// const newStr = "    aman       "
+// console.log(newStr);
+// console.log(newStr.trim());
 
 
-const sentance = "the-quick-brown-fox-in-lazy-day"
-console.log(sentance.split("-"));
+// const url1 = "https://aman-gupta.me/"
+// console.log(url1.replace("me", "com"));
+// console.log(url1.includes("aman"));
+
+
+// const sentance = "the-quick-brown-fox-in-lazy-day"
+// console.log(sentance.split("-"));
 
 
 //? ****** More String Methods ******
 
 
-let text = "my name"
-let url = "https://aman-gupta.me/"
+// let text = "my name"
+// let url = "https://aman-gupta.me/"
 
-let anchor = text.anchor(url)
-console.log(anchor);
+// let anchor = text.anchor(url)
+// console.log(anchor);
 
 
 //? *******************************************************************************
@@ -75,3 +75,22 @@ console.log(anchor);
 
 
 
+const newStr1 = new String('aman-g-ab-naba-ik')
+console.log(newStr1[2])
+
+console.log(newStr1.__proto__)
+
+console.log(newStr1.length);
+
+console.log(newStr1.toUpperCase());
+console.log(newStr1.charAt(1));
+console.log(newStr1.indexOf('m'));
+
+const newString2 = newStr1.substring(0,2)
+console.log(newString2);
+
+const newString3 = newStr1.slice(0, 2)
+console.log(newString3);
+
+
+ console.log(newStr1.split("-"));
