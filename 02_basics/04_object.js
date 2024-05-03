@@ -1,10 +1,10 @@
 // const tinderUser = new Object()
 
-const tinderUser = {};
+// const tinderUser = {};
 
-tinderUser.id = "123";
-tinderUser.name = "Aman";
-tinderUser.isLoggedInn = false;
+// tinderUser.id = "123";
+// tinderUser.name = "Aman";
+// tinderUser.isLoggedInn = false;
 
 // console.log(tinderUser);
 
@@ -54,18 +54,18 @@ tinderUser.isLoggedInn = false;
 
 //? ****************************************************************
 
-const course = {
-  courseName: "jsHindi",
-  price: 999,
-  courseInstructor: "Hitesh"
-};
+// const course = {
+//   courseName: "jsHindi",
+//   price: 999,
+//   courseInstructor: "Hitesh"
+// };
 
-console.log(course.courseInstructor);
+// console.log(course.courseInstructor);
 
 
-const {courseInstructor: instructor} = course;
+// const {courseInstructor: instructor} = course;
 
-console.log(instructor);
+// console.log(instructor);
 
 
 
@@ -73,5 +73,16 @@ console.log(instructor);
 
 
 
+const course = {
+  courseName: "jsHindi",
+  price: 999,
+  courseInstructor: "Hitesh"
+};
 
 
+const {courseInstructor} = course;
+console.log(courseInstructor)
+
+
+
+ 

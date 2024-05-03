@@ -1,42 +1,42 @@
 
-// const boys = ["aman", "girish", "piyush"]
-// const girls = ["priya", "juhi", "vidhi"]
+const boys = ["aman", "girish", "piyush"]
+const girls = ["priya", "juhi", "vidhi"]
 
-// boys.push(girls)
+boys.push(girls)
 
-// console.log(boys);
-// console.log(girls);
+console.log(boys);
+console.log(girls);
 
-// console.log(boys[3][1]);
+console.log(boys[3][1]);
 
-// const all = boys.concat(girls)
-// console.log(all);
+const all = boys.concat(girls)
+console.log(all);
 
 
 //! spread the elements of array
 
 
-// const all_boys_girls = [...boys, ...girls]
-// console.log(all_boys_girls);
+const all_boys_girls = [...boys, ...girls]
+console.log(all_boys_girls);
 
 
-// const arr3 = [1,2,3,[4,7][9,0],[78,90,66],5,6,[0,99]]
-// const newFlattenArr = arr3.flat(Infinity)
+const arr3 = [1,2,3,[4,7][9,0],[78,90,66],5,6,[0,99]]
+const newFlattenArr = arr3.flat(Infinity)
 
 // console.log(newFlattenArr);
 
 
 // const arr4 = [1,2,3,4,5]
 
-// console.log(Array.isArray("aman"));
-// console.log(Array.from("aman"));
+console.log(Array.isArray("aman"));
+console.log(Array.from("aman"));
 //! imp console.log(Array.from({name: "aman"}));
 
-// let a = 5
-// let b = 6
-// let c = 7
+let a = 5
+let b = 6
+let c = 7
 
-// console.log(Array.of(a,b,c));
+console.log(Array.of(a,b,c));
 
 //? isArray() method:
 

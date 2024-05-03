@@ -1,31 +1,31 @@
 
 //!  ***** Numbers ***********
 
-// const score =  400  
-// console.log(score);
+const score =  400  
+console.log(score);
 
-// const balance = new Number(100)
-// console.log(balance.toString());
-// console.log(balance.toFixed(3));
+const balance = new Number(100)
+console.log(balance.toString());
+console.log(balance.toFixed(3));
 
-// const otherNumber = 122.856
-// console.log(otherNumber.toPrecision(3));
+const otherNumber = 122.856
+console.log(otherNumber.toPrecision(3));
 
 
-// const hundreds = 100000
-// console.log(hundreds.toLocaleString("en-IN"));
+const hundreds = 100000
+console.log(hundreds.toLocaleString("en-IN"));
 
 //! ************ Maths ******************
 
 
-// console.log(Math);
-// console.log(Math.abs(-7));
-// console.log(Math.round(4.8));
-// console.log(Math.ceil(4.2));
-// console.log(Math.floor(4.8));
-// console.log(Math.sqrt(25));
-// console.log(Math.min(3,5,8,2,1,0));
-// console.log(Math.max(3,5,8,2,1,10));
+console.log(Math);
+console.log(Math.abs(-7));
+console.log(Math.round(4.8));
+console.log(Math.ceil(4.2));
+console.log(Math.floor(4.8));
+console.log(Math.sqrt(25));
+console.log(Math.min(3,5,8,2,1,0));
+console.log(Math.max(3,5,8,2,1,10));
 
 
 
@@ -40,12 +40,12 @@
 
 
 
-// const bal = new Number(100)
-// console.log(bal);
+const bal = new Number(100)
+console.log(bal);
 
-// console.log(bal.toString());
-// console.log(bal.toString().length);
-// console.log(bal.toFixed(2));
+console.log(bal.toString());
+console.log(bal.toString().length);
+console.log(bal.toFixed(2));
 
 //? ======================================
 

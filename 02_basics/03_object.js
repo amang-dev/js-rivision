@@ -52,4 +52,18 @@
 // console.log(jsUser);
 
 
- 
+const  newObj = new Object()  // Singelton object
+
+newObj.id = 123
+newObj.email = "amang@gmail.com"
+newObj.username = "aman"
+
+console.log(newObj);
+
+
+console.log(Object.keys(newObj));
+console.log(Object.values(newObj));
+console.log(Object.entries(newObj));
+
+
+console.log(newObj.hasOwnProperty("email"));

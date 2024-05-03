@@ -1,17 +1,17 @@
-const user = {
-  username: "aman",
-  price: 999,
-  website: "https://aman-gupta.me",
+// const user = {
+//   username: "aman",
+//   price: 999,
+//   website: "https://aman-gupta.me",
 
-  welcomeMessage: function () {
-    console.log(`${this.username} , Welcome to Website`);
-    console.log(this);
-  },
-};
+//   welcomeMessage: function () {
+//     console.log(`${this.username} , Welcome to Website`);
+//     console.log(this);
+//   },
+// };
 
-user.welcomeMessage();
-user.username = "gupta";
-user.welcomeMessage();
+// user.welcomeMessage();
+// user.username = "gupta";
+// user.welcomeMessage();
 
 //  function chai (){
 //     let username = "aman"
@@ -49,7 +49,7 @@ user.welcomeMessage();
 //!  Immediately Invoke Function Expression (IIFE)
 
 
-//? SomeTime this is a pollution due to global scope variable to avoid this we use IIFE.
+//? SomeTime there is a pollution due to global scope variable to avoid this we use IIFE.
 
 // (function chai () {
 //   console.log('DB connected');
@@ -59,3 +59,45 @@ user.welcomeMessage();
 // (() =>{
 //    console.log("aman");
 // })()
+
+
+//? ********************************
+
+
+// const user = {
+//   username: "aman",
+//   price: 999,
+//   website: "https://aman-gupta.me",
+
+//   welcomeMessage: function () {
+//     console.log(`${this.username} , Welcome to Website`);
+//     // console.log(this);
+//   },
+// };
+
+
+// user.welcomeMessage()
+// user.username = "gupta"
+// user.welcomeMessage()
+
+// console.log(this);
+
+
+// const chai = () => {
+//   console.log(this);
+// }
+
+// chai()
+
+
+// const one = (num1, num2 ) =>{
+//    return num1 + num2
+// }
+
+// console.log(one(2, 3));
+
+
+const one = (num1, num2 ) =>  (num1 + num2)
+  
+  
+  console.log(one(2, 3));

@@ -52,8 +52,8 @@
 
 
 
-// slice do not modifie the original array
 // splice modify the original array
+// slice do not modifie the original array
 
 
 let myarr1 =[1,2,3,5,4,8,9,7]
