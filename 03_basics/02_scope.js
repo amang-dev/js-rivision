@@ -7,31 +7,32 @@
 //   let b = 20;
 //   const c = 30;
 
-//   console.log(b);
+//   console.log(b); //20
 // }
 
-// console.log(a);
-// console.log(b);
-// console.log(c);
+// console.log(a); 
+// console.log(b);  
+// console.log(c);  
+
 
 //? **********************************************
 
-// function one() {
-//   const username = "Aman";
+function one() {
+  const username = "Aman";
 
-//   function two() {
+  function two() {
 
-//     const website = "aman-gupta.me";
-//     console.log(username);
+    const website = "aman-gupta.me";
+    console.log(username);
 
-//   }
+  }
 
-//   console.log(website);
+  console.log(website);
 
-//   two();
-// }
+  two();
+}
 
-// one();
+one();
 
 //? **********************************************************
 

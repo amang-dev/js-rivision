@@ -6,9 +6,9 @@ console.log(score);
 
 const balance = new Number(100)
 console.log(balance.toString());
-console.log(balance.toFixed(3));
+console.log(balance.toFixed(2));
 
-const otherNumber = 122.856
+const otherNumber = 122.156
 console.log(otherNumber.toPrecision(3));
 
 
@@ -23,6 +23,7 @@ console.log(Math.abs(-7));
 console.log(Math.round(4.8));
 console.log(Math.ceil(4.2));
 console.log(Math.floor(4.8));
+
 console.log(Math.sqrt(25));
 console.log(Math.min(3,5,8,2,1,0));
 console.log(Math.max(3,5,8,2,1,10));

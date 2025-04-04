@@ -1,20 +1,20 @@
 //? for of (for iteration of array)
 
 
-// const array = [1,2,3,4,5]
+const array = [1,2,3,4,5]
 
-// for (const arr of array) {
-//     console.log(arr);
-// }
+for (const arr of array) {
+    console.log(arr);
+}
 
-// const greeting = "Hello World!"
+const greeting = "Hello World!"
 
-// for (const greet of greeting) {
-//     if(greet === " "){
-//         continue;
-//     }
-//     console.log(`the value is ${greet}`);
-// }
+for (const greet of greeting) {
+    if(greet === " "){
+        continue;
+    }
+    console.log(`the value is ${greet}`);
+}
 
 
 //? for in (for iteration of object)
@@ -34,16 +34,16 @@ for (const  key in myObj) {
 
 //? Map
  
-// const map = new Map()
+const map = new Map()
 
-// map.set('name', 'Aman')
-// map.set('state', "BR")
-// map.set('lang', "Javascript")
+map.set('name', 'Aman')
+map.set('state', "BR")
+map.set('lang', "Javascript")
 
-// console.log(map);
-// console.log(map.get('name'));
-// console.log(map.size);
+console.log(map);
+console.log(map.get('name'));
+console.log(map.size);
 
-// for (const [key, value] of map) {
-//     console.log(key, ":-- ",  value);
-// }
+for (const [key, value] of map) {
+    console.log(key, ":-- ",  value);
+}

@@ -13,6 +13,7 @@ console.log("Aman");
 
 //! ----Non primitive data type
 
+// array
 // object
 
 //? ---------------------------------------------------------
@@ -31,6 +32,7 @@ console.log("Aman");
 console.log(typeof valueInNum);
 
 
+// console.log(Number(false));
 // "33" => 33 
 // "12ss0" => NaN
 //true ==> 1 false == 0
@@ -75,7 +77,7 @@ console.log(+"");
 let num1, num2, num3;
 num1 = num2 = num3 = 2 + 2;
 
-// console.table([num1, num2, num3])
+console.table([num1, num2, num3])
 
 
 //? prefix postfix
@@ -93,8 +95,8 @@ console.log(gameCounter);
 // console.log(y); // Output: 6
 
 
-// let  x = 5
-// console.log(x++  +  ++x)
+let  x = 5
+console.log(x++  +  ++x)
 
 // Postfix operator (++ or --): It first returns the current value of the variable and then increments or decrements it by 1.
 
@@ -106,7 +108,7 @@ console.log(gameCounter);
 
 
 // let x = 5;
-// console.log(++x + x++);
+// console.log(++x + x++); 
 // console.log(x);
 
 
@@ -115,9 +117,9 @@ console.log(gameCounter);
 // console.log(y);
 
 // let a = 3;
-// let b = ++a + a++;
+// let b = ++a + a++; 
 // console.log(b);
-// console.log(a);
+// console.log(a); 
 
 
 // let m = 2;

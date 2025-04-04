@@ -4,25 +4,25 @@
 // console.log(`My name is ${name} My repo count is ${repoCount}`)
 
 
-// const gameName = new String('amangupta')
+const gameName = new String('amangupta')
 
-// console.log(gameName[0])
+console.log(gameName[0])
 
-// console.log(gameName.__proto__);
+console.log(gameName.__proto__);
 
-// console.log(gameName.toUpperCase());
-// console.log(gameName.charAt(1));
-// console.log(gameName.indexOf('n'));
+console.log(gameName.toUpperCase());
+console.log(gameName.charAt(1));
+console.log(gameName.indexOf('n'));
 
-// const newString = gameName.substring(0, 4)
-// console.log(newString);
+const newString = gameName.substring(0, 4)
+console.log(newString);
 
-// const anotherString = gameName.slice(0, 4)
-// console.log(anotherString);
+const anotherString = gameName.slice(0, 4)
+console.log(anotherString);
 
-// const newStr = "    aman       "
-// console.log(newStr);
-// console.log(newStr.trim());
+const newStr = "    aman       "
+console.log(newStr);
+console.log(newStr.trim());
 
 
 // const url1 = "https://aman-gupta.me/"
@@ -30,8 +30,8 @@
 // console.log(url1.includes("aman"));
 
 
-// const sentance = "the-quick-brown-fox-in-lazy-day"
-// console.log(sentance.split("-"));
+const sentance = "the-quick-brown-fox-in-lazy-day"
+console.log(sentance.split("-"));
 
 
 //? ****** More String Methods ******

@@ -10,14 +10,14 @@
 
 //? reduce
 
-//  const myNum = [1,2,3]
+ const myNum = [1,2,3]
 
-//  const totalNum = myNum.reduce((acc, currval) => {
-//     console.log(`Acc value ${acc} current val ${currval}`);
-//    return acc + currval
-//  },0)
+ const totalNum = myNum.reduce((acc, currval) => {
+    // console.log(`Acc value ${acc} current val ${currval}`);
+   return acc + currval
+ },0)
 
-// console.log(totalNum);
+console.log(totalNum);
 
 const shoppingCart = [
   {

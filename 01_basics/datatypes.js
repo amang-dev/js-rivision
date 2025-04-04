@@ -1,7 +1,7 @@
 
 //?  **** Primitive ****(call by value)
 
-// string
+// string      
 // Number
 // Boolean
 // null
@@ -11,7 +11,7 @@
 
 //? *** Non Primitive type *** (Reference)
 
-// Array
+// Array 
 // Object
 // Functions
 
@@ -19,7 +19,7 @@
 
 //? What is JavaScript 
 
-// JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language. It is also known as the scripting language for webpages. It is well-known for the development of web pages, and many non-browser environments also use it.
+// JavaScript is a programming language that allows developers to create interactive web pages. single-threaded, It is also known as the scripting language for webpages.
 
 // JavaScript is a weakly typed language (dynamically typed). JavaScript can be used for Client-side developments as well as Server-side developments. JavaScript is both an imperative and declarative type of language. JavaScript contains a standard library of objects, like Array, Date, and Math, and a core set of language elements like operators, control structures, and statements. 
 
@@ -29,27 +29,27 @@
 // Stack Memmory - (Primitive)
 // Heap Memory - (Non-Primitive)
 
-// let myName = "amanG"
+let myName = "amanG"
 
-// let myOtherName = myName
-// myOtherName = "Bittu"
+let myOtherName = myName
+myOtherName = "Bittu"
 
-// console.log(myName);
-// console.log(myOtherName);
+console.log(myName);
+console.log(myOtherName);
 
 
 
-// let userOne = {
-//     email: "aman@gmail.com",
-//     upi: "aman@ybl"
-// }
+let userOne = {
+    email: "aman@gmail.com",
+    upi: "aman@ybl"
+}
 
-// let userTwo = userOne
+let userTwo = userOne
 
-// userTwo.email = "abc@google.com"
+userTwo.email = "abc@google.com"
 
-// console.log(userOne.email);
-// console.log(userTwo.email);
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
 

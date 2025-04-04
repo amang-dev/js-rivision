@@ -1,9 +1,9 @@
-// let coding = ["js", "ruby", "cpp", "react", "java", "python"];
+let coding = ["js", "ruby", "cpp", "react", "java", "python"];
 
-// const myVal = coding.forEach((item) => {
-  // console.log(item);
-//   return item;
-// });
+const myVal = coding.forEach((item) => {
+  console.log(item);
+  return item;
+});
 
 // console.log(myVal);
 

@@ -23,12 +23,12 @@ console.log(all_boys_girls);
 const arr3 = [1,2,3,[4,7][9,0],[78,90,66],5,6,[0,99]]
 const newFlattenArr = arr3.flat(Infinity)
 
-// console.log(newFlattenArr);
+console.log(newFlattenArr);
 
 
 // const arr4 = [1,2,3,4,5]
 
-console.log(Array.isArray("aman"));
+console.log(Array.isArray(["aman"]));
 console.log(Array.from("aman"));
 //! imp console.log(Array.from({name: "aman"}));
 

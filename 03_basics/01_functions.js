@@ -1,18 +1,18 @@
-// function myName() {
-//     console.log("Hello");
-// }
+function myName() {
+    console.log("Hello");
+}
 
-// myName()
+myName()
 
-// function addTwoNum (num1, num2){
-// let result= num1 + num2
-// return result;
+function addTwoNum (num1, num2){
+let result= num1 + num2
+return result;
 
-//     return num1 + num2;
-// }
+    return num1 + num2;
+}
 
-// const result = addTwoNum(4,5)
-// console.log(result);
+const result = addTwoNum(4,5)
+console.log(result);
 
 //? *********************************************
 

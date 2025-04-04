@@ -1,13 +1,13 @@
-// const user = {
-//   username: "aman",
-//   price: 999,
-//   website: "https://aman-gupta.me",
+const user = {
+  username: "aman",
+  price: 999,
+  website: "https://aman-gupta.me",
 
-//   welcomeMessage: function () {
-//     console.log(`${this.username} , Welcome to Website`);
-//     console.log(this);
-//   },
-// };
+  welcomeMessage: function () {
+    console.log(`${this.username} , Welcome to Website`);
+    console.log(this);
+  },
+};
 
 // user.welcomeMessage();
 // user.username = "gupta";

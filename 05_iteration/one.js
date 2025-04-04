@@ -5,33 +5,33 @@
 //     console.log(element);
 // }
 
-// for (let i = 1; i <= 10; i++) {
-//   console.log("**********************************");
+for (let i = 1; i <= 10; i++) {
+  console.log("**********************************");
 
-//   for (let j = 1; j <= 10; j++) {
-//     console.log(i + "*" + j + " = " + i * j);
-//   }
-// }
+  for (let j = 1; j <= 10; j++) {
+    console.log(i + "*" + j + " = " + i * j);
+  }
+}
 
 //? While Loop
 
-// let index = 1;
+let index = 1;
 
-// while (index <= 10) {
-//   console.log(`Value is ${index}`);
+while (index <= 10) {
+  console.log(`Value is ${index}`);
 
-//   index =  index + 1
-// }
+  index =  index + 1
+}
 
-// let  arr = 0
+let  arr = 0
 
-// let myArr = ["aman", "gupta", "chaman"]
+let myArr = ["aman", "gupta", "chaman"]
 
-// while(arr < myArr.length){
-//   console.log(`value is ${myArr[arr]}`);
+while(arr < myArr.length){
+  console.log(`value is ${myArr[arr]}`);
 
-//   arr = arr+ 1;
-// }
+  arr = arr+ 1;
+}
 
 //? do while
 

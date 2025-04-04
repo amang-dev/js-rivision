@@ -15,37 +15,37 @@
 // A deep copy of an object is a copy whose properties do not share the same references (point to the same underlying values) as those of the source object from which the copy was made
 
 
-// const myarr = [1,2,3,4,5]
-
-// console.log(typeof myarr)
 
 //? ***** Array Methods ********
- 
+
+const myarr = [1,2,3,4,5]
+
+console.log(typeof myarr)
 
 
-// console.log(myarr.includes(2));
-// console.log(myarr.indexOf(8));
+console.log(myarr.includes(2));
+console.log(myarr.indexOf(2));
 
 
-// const newArr = myarr.join()
-// console.log(myarr);
-// console.log(newArr);
+const newArr = myarr.join()
+console.log(myarr);
+console.log(newArr);
 
 
 //? **** slice, splice ***
 
 
-// const arr = [1,2,3,4,5,6]
+const arr = [1,2,3,4,5,6]
 
-// const myn1 = arr.slice(1,3)
+const myn1 = arr.slice(1,3)
 
-// console.log(arr);
-// console.log( myn1);
+console.log(arr);
+console.log( myn1);
 
 
-// const myn2= arr.splice(1,3)
-// console.log(arr);
-// console.log(myn2);
+const myn2= arr.splice(1,3)
+console.log(arr);
+console.log(myn2);
 
 
 
